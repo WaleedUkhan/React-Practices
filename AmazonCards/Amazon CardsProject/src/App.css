@@ -1,0 +1,40 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin-left: auto;
+}
+
+.ProductTab {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  margin: 65px;
+}
+
+.Product {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 26px;
+  margin: 25px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.Product:hover {
+  transform: scale(1.05);
+}
+
+.Product h3 {
+  margin-top: 0;
+}
+
+.Price p {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
